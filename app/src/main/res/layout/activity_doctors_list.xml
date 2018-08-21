@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.prasannakc.dissertation.Doctors_list"
+    android:background="#ffa3b5ff">
+
+  <ListView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/list_stnic_Doc"
+      android:entries="@array/St_Nicholas_Hospital"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_gen_Doc"
+        android:entries="@array/General_Hospital"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_rvi_Doc"
+        android:entries="@array/RVI_Hospital"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_stgeo_doc"
+        android:entries="@array/St_Georges_Hospital"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_north_doc"
+        android:entries="@array/Nothgate_Hospital"/>
+
+
+
+
+</RelativeLayout>

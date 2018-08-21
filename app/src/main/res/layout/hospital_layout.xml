@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <TextView android:id="@+id/name"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#ffb088ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:id="@+id/cityState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

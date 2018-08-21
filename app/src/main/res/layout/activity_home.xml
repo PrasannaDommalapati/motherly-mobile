@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ffa668ae"
+    tools:context="com.prasannakc.dissertation.Home">
+
+    <TextView android:text="@string/title_activity_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/home" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/home"
+        android:layout_alignParentBottom="true"
+        android:background="#ff8bae9c">
+        <TableRow>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_bmi"
+                android:text="@string/cal_bmi"
+                android:layout_column="5" />
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_news"
+                android:text="@string/cal_news"
+                android:layout_column="14"/>
+
+        </TableRow>
+        <TableRow>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_MOM"
+                android:text="@string/btn_MOM"
+                android:layout_column="5" />
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_bt_appoint"
+                android:text="@string/btn_appoint"
+                android:layout_column="14"/>
+
+        </TableRow>
+        <TableRow>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_emergency"
+                android:text="@string/btn_emergency"
+                android:layout_column="5"
+                android:background="#ffff141b" />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_learn"
+                android:text="@string/btn_learn"
+                android:layout_column="14"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

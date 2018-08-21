@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "385415922258",
+    "firebase_url": "https://motherlymobile.firebaseio.com",
+    "project_id": "motherlymobile",
+    "storage_bucket": "motherlymobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385415922258:android:0080cdc75472f948",
+        "android_client_info": {
+          "package_name": "com.prasannakc.motherlymobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385415922258-c6mecd76ngq8ojnmunp75ino97fhdmv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdhe3DzzDuv0YDLLhzrs7M92vzQJWWFoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

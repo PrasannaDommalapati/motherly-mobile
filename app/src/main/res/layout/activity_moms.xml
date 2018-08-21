@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ff8bae9c"
+    tools:context="com.prasannakc.dissertation.Moms">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_ON"
+        android:text="Turn ON BT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/disc_devicesbtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchdevicesbtn"
+        android:text="SEARCH DEVICES"
+        android:layout_below="@+id/bt_OFF"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/disc_devicesbtn"
+        android:text="GET VISIBLE"
+        android:layout_alignTop="@+id/searchdevicesbtn"
+        android:layout_toRightOf="@+id/searchdevicesbtn"
+        android:layout_alignRight="@+id/paitbtdevicesbtn"
+        android:layout_alignEnd="@+id/paitbtdevicesbtn" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paitbtdevicesbtn"
+        android:text="Pair BT Devices"
+        android:layout_below="@+id/disc_devicesbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_OFF"
+        android:text="TURN OFF BT"
+        android:layout_alignBottom="@+id/bt_ON"
+        android:layout_toRightOf="@+id/bt_ON"
+        android:layout_alignRight="@+id/disc_devicesbtn"
+        android:layout_alignEnd="@+id/disc_devicesbtn" />
+    <ListView
+        android:id="@+id/devicesfound"
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/paitbtdevicesbtn" />
+
+
+</RelativeLayout>
